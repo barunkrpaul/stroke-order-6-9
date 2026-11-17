@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Stroke order resolves the six and nine ambiguity in rotation-invariant handwritten digit recognition"
+authors:
+  - family-names: Paul
+    given-names: "Barun Kr."
+    orcid: "https://orcid.org/0009-0003-4304-5081"
+  - family-names: Das
+    given-names: "Ujjal Kumar"
+  - family-names: Giri
+    given-names: Kinsuk
+    orcid: "https://orcid.org/0000-0003-2671-3079"
+license: MIT
+repository-code: "https://github.com/barunkrpaul/stroke-order-69"

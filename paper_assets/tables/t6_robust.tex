@@ -1,0 +1,25 @@
+\begin{table}[t]
+\caption{Robustness of the proposed descriptor on the Pendigits test set.
+Position noise is Gaussian with the stated standard deviation on the coordinate
+scale of $0$ to $100$. Dropped positions are removed from the interior of the
+path, which is then resampled to eight points. Values are per cent.}
+\label{tab:robust}
+\begin{tabular}{lcc}
+\toprule
+Condition & all digits & digits 6 and 9\\
+\midrule
+No perturbation & 98.80 & 98.66\\
+Position noise, sd $=0.5$ & 98.77 & 98.56\\
+Position noise, sd $=1$ & 98.80 & 98.41\\
+Position noise, sd $=2$ & 98.65 & 98.46\\
+Position noise, sd $=4$ & 97.74 & 97.77\\
+1 interior position(s) dropped & 88.47 & 87.35\\
+2 interior position(s) dropped & 76.96 & 71.43\\
+Stroke order reversed for a quarter of the test set & 81.76 & 74.11\\
+Stroke order reversed for half of the test set & 63.04 & 48.51\\
+Stroke order reversed for all of the test set & 28.27 & 0.00\\
+Mirrored input, signed descriptor & 12.58 & 0.89\\
+Mirrored input, unsigned variant & 97.14 & 97.92\\
+\botrule
+\end{tabular}
+\end{table}

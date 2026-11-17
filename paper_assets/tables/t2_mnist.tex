@@ -1,0 +1,16 @@
+\begin{table}[t]
+\caption{The same measurement on the bitmaps of MNIST, with a random split of
+$60000$ training and $10000$ test images. Values are per cent, averaged over the
+tested rotations, with the worst angle in brackets.}
+\label{tab:mnist}
+\begin{tabular}{lcc}
+\toprule
+Model & all digits & digits 6 and 9\\
+\midrule
+CNN, upright training & 32.73 (9.39) & 26.71 (2.19)\\
+CNN, rotation augmented, 20000 images, 6 epochs & 61.55 (56.15) & 38.25 (16.98)\\
+CNN, rotation augmented, 60000 images, 15 epochs & 90.34 (89.71) & 85.48 (83.02)\\
+Zernike + Hu + radial & 82.57 (81.32) & 73.78 (70.78)\\
+\botrule
+\end{tabular}
+\end{table}

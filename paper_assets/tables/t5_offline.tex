@@ -1,0 +1,20 @@
+\begin{table}[t]
+\caption{Attempts to recover the representation from an offline image, Pendigits
+test set. Values are per cent, averaged over the tested rotations, with the worst
+angle in brackets. None of the attempts approaches the accuracy obtained from the
+recorded trajectory, and predicting the descriptor from the image is worse than
+predicting the class from it.}
+\label{tab:offline}
+\begin{tabular}{lcc}
+\toprule
+Model & all digits & digits 6 and 9\\
+\midrule
+CNN on the image, ten-class output & 75.31 & 54.15\\
+CNN predicts descriptor, frozen classifier & 45.20 (35.31) & 2.06 (0.00)\\
+CNN predicts descriptor, classifier refitted & 42.65 & 22.13\\
+CNN predicts accumulated turning, threshold & -- & 50.05\\
+\midrule
+Descriptor from the recorded trajectory & 98.75 & 98.60\\
+\botrule
+\end{tabular}
+\end{table}

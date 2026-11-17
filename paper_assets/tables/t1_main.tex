@@ -1,0 +1,22 @@
+\begin{table}[t]
+\caption{Accuracy (per cent) on the writer-independent Pendigits test set. The
+columns give the upright condition, the mean over the $36$ test rotations and the
+value at the worst of those rotations, first over all ten digits and then over
+the digits $6$ and $9$ only.}
+\label{tab:main}
+\begin{tabular}{lccccc}
+\toprule
+& \multicolumn{3}{c}{all digits} & \multicolumn{2}{c}{digits 6 and 9}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}
+Representation & upright & mean & worst & mean & worst\\
+\midrule
+Raw coordinates & 97.48 & 31.14 & 2.88 & 29.89 & 0.00 \\
+CNN, upright training & 96.68 & 34.37 & 14.32 & 28.90 & 0.00 \\
+CNN, rotation augmented & 75.50 & 75.31 & 73.89 & 54.15 & 49.45 \\
+RIC-CNN layers~\cite{riccnn} & 94.77 & 65.51 & 41.74 & 40.44 & 13.84 \\
+Zernike + Hu + radial & 84.02 & 82.77 & 81.79 & 75.02 & 73.36 \\
+\midrule
+\textbf{Proposed descriptor} & 98.75 & 98.75 & 98.75 & 98.60 & 98.60 \\
+\botrule
+\end{tabular}
+\end{table}

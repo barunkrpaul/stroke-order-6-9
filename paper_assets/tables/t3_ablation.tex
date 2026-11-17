@@ -1,0 +1,16 @@
+\begin{table}[t]
+\caption{Ablation of the proposed descriptor on the Pendigits test set. Accuracy
+is identical at every rotation, so a single value is reported, as mean and
+standard deviation over five seeds. The last column gives the $p$ value of the
+test of McNemar against the full descriptor on the digits $6$ and $9$.}
+\label{tab:abl}
+\begin{tabular}{lccc}
+\toprule
+Variant & all digits & digits 6 and 9 & $p$\\
+\midrule
+Full descriptor & 98.75 $\pm$ 0.07 & 98.60 $\pm$ 0.07 & --\\
+Signs of turning removed & 97.12 $\pm$ 0.06 & 97.71 $\pm$ 0.20 & 0.18\\
+Stroke direction unknown & 96.92 $\pm$ 0.07 & 91.55 $\pm$ 0.11 & $7.1\times10^{-15}$\\
+\botrule
+\end{tabular}
+\end{table}
