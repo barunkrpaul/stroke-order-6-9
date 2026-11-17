@@ -2,7 +2,7 @@
 
 Code and results for the paper *Stroke order resolves the six and nine ambiguity in
 rotation-invariant handwritten digit recognition* by Barun Kr. Paul, Ujjal Kumar Das and
-Kinsuk Giri (submitted to Pattern Analysis and Applications).
+Dr. Kinsuk Giri (submitted to Pattern Analysis and Applications).
 
 The paper shows that any rotation-invariant image feature gives the same value to a 6 and
 to the 9 obtained by turning it through 180 degrees, and proposes a descriptor of the
